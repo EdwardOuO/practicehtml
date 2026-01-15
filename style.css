@@ -1,10 +1,47 @@
-.logo{
-    text-align: left;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-.nav{
-    text-align:right;
-}
-.header{
+header {
     background-color: black;
     color:white;
+    padding: 15px;
+    display: flex;
+    position: sticky;
+    top: 0;
+}
+.logo {
+    text-align: center;
+    border:5px solid black;
+    padding:10px;
+    font-size: 16px;
+    flex: 1
+}
+.menu {
+    flex:5;
+}
+body{
+    padding:20px 15px 0px;
+}
+.header{
+    text-align: center;
+    color:red;
+}
+hr{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+img{
+    width:900px;
+    height:400px;
+    object-fit: cover;
+    display: block;
+}
+footer{
+    padding-top:10px;
+    background-color: brown;;
+}
+.footer p{
+    text-align: center;
 }
